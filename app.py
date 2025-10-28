@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-# โหลดโมเดล
 with open('hotel_price_model.pkl', 'rb') as f:
     model = pickle.load(f)
     
